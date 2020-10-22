@@ -27,7 +27,7 @@ function MyComponent() {
       >
         <KmlLayer url="https://trackme.ekstreem.ee/tracks/track/Jaanipaevrattas/trackline.kml" />
         <KmlLayer url="https://trackme.ekstreem.ee/tracks/track/Jaanipaevrattas/placemarksmsg.kml" />
-        <KmlLayer url="https://trackme.ekstreem.ee/tracks/track/Jaanipaevrattas/plannedtrack.kml" />
+        <KmlLayer url="https://trackme.ekstreem.ee/tracks/track/PolvaPuka365km/plannedtrack.kml" />
         { /* Child components, such as markers, info windows, etc. */ }
         <></>
       </GoogleMap>
