@@ -2,7 +2,7 @@ import React from 'react'
 import { GoogleMap, KmlLayer, LoadScript } from '@react-google-maps/api';
 
 const containerStyle = {
-  width: '800px',
+  width: '100%',
   height: '800px'
 };
 
@@ -27,7 +27,8 @@ function MyComponent() {
       >
         <KmlLayer url="https://trackme.ekstreem.ee/tracks/track/Jaanipaevrattas/trackline.kml" />
         <KmlLayer url="https://trackme.ekstreem.ee/tracks/track/Jaanipaevrattas/placemarksmsg.kml" />
-        <KmlLayer url="https://trackme.ekstreem.ee/tracks/track/PolvaPuka365km/plannedtrack.kml" />
+        <KmlLayer url="https://trackme.ekstreem.ee/tracks/track/Jaanipaevrattas/plannedtrack.kml" />
+        <KmlLayer url="https://trackme.ekstreem.ee/tracks/track/PolvaPuka365km/plannedtrack.kml?dummy=1603383751884" />
         { /* Child components, such as markers, info windows, etc. */ }
         <></>
       </GoogleMap>
